@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inputBox {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: black;
+  font-size: 1rem;
+}
+
+.list-items {
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 4px 8px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.deleteBtn {
+  margin-left: 50%;
+  color: red;
+}
+
+li {
+  border-bottom: 1px solid rgb(188, 183, 183);
+  display: flex;
+}
